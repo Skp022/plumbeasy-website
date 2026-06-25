@@ -291,10 +291,11 @@ html{
 
 .footer-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    grid-template-columns:repeat(4,1fr);
     gap:40px;
+    max-width:1200px;
+    margin:auto;
 }
-
 .footer-col h3{
     color:#111827;
     margin-bottom:20px;
@@ -311,6 +312,13 @@ html{
 
 .footer-col a:hover{
     color:#0A66C2;
+}
+.footer-bottom{
+    text-align:center;
+    margin-top:40px;
+    padding-top:25px;
+    border-top:1px solid #ddd;
+    width:100%;
 }
 .social-links{
     display:flex;
