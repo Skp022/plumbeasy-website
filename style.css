@@ -151,7 +151,9 @@ section{
 section h2{
     text-align:center;
     color:#0A66C2;
-    margin-bottom:40px;
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:30px;
 }
 
 /* FEATURES */
@@ -191,10 +193,10 @@ section h2{
 }
 
 #services h2{
-    font-size:52px;
+    font-size:28px;
     font-weight:700;
     color:#0A66C2;
-    margin-bottom:40px;
+    margin-bottom:30px;
 }
 #how-it-works h2{
     margin-bottom:20px;
