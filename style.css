@@ -191,7 +191,10 @@ section h2{
 }
 
 #services h2{
-    font-size:48px;
+    font-size:52px;
+    font-weight:700;
+    color:#0A66C2;
+    margin-bottom:40px;
 }
 #how-it-works h2{
     margin-bottom:20px;
@@ -207,24 +210,52 @@ section h2{
 
 .service-card{
     background:#fff;
-    padding:25px 30px;
+    padding:25px;
     border-radius:18px;
     text-decoration:none;
-    color:#1d1d1d;
-    font-size:24px;
-    font-weight:600;
+
+    color:#333;
+    font-size:18px;
+    font-weight:500;
+
     text-align:center;
 
-    box-shadow:
-    0 8px 25px rgba(0,0,0,0.08);
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
 
     transition:all 0.3s ease;
 }
 
 .service-card:hover{
     transform:translateY(-5px);
-    box-shadow:
-    0 12px 30px rgba(10,102,194,0.15);
+    box-shadow:0 12px 30px rgba(10,102,194,0.15);
+    color:#0A66C2;
+}
+.service-card i{
+    font-size:24px;
+    margin-right:10px;
+}
+.fa-faucet-drip{
+    color:#2196F3;
+}
+
+.fa-shower{
+    color:#00BCD4;
+}
+
+.fa-wrench{
+    color:#607D8B;
+}
+
+.fa-water{
+    color:#03A9F4;
+}
+
+.fa-triangle-exclamation{
+    color:#FF5722;
+}
+
+.fa-house{
+    color:#4CAF50;
 }
 /* REVIEWS */
 
