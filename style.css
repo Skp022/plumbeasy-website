@@ -190,7 +190,9 @@ section h2{
     padding-top:10px;
 }
 
-#services h2,
+#services h2{
+    font-size:48px;
+}
 #how-it-works h2{
     margin-bottom:20px;
 }
@@ -211,7 +213,7 @@ section h2{
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:22px;
+    font-size:18px;
     font-weight:600;
     box-shadow:0 4px 12px rgba(0,0,0,0.08);
     transition:all .3s ease;
