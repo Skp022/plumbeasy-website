@@ -145,7 +145,7 @@ nav{
 /* SECTIONS */
 
 section{
-    padding:50px 20px;
+    padding:30px 20px;
 }
 
 section h2{
@@ -183,24 +183,25 @@ section h2{
 /* SERVICES */
 
 #services{
-    padding:60px 20px;
+    padding-bottom:10px;
 }
 
-#services h2{
-    text-align:center;
-    color:#0A66C2;
-    font-size:42px;
-    margin-bottom:40px;
+#how-it-works{
+    padding-top:10px;
+}
+
+#services h2,
+#how-it-works h2{
+    margin-bottom:20px;
 }
 
 .service-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-    max-width:1100px;
-    margin:0 auto;
+    gap:15px;
 }
 
+.feature-grid{
+    gap:15px;
+}
 .service-card{
     background:#ffffff;
     padding:25px;
