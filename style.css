@@ -8,8 +8,8 @@
     ),
     url("hero2.jpg");
 
-    background-size: 100% auto;
-    background-position: center;
+    background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
 
     min-height: 650px;
