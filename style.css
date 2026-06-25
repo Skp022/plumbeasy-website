@@ -6,7 +6,7 @@
         rgba(10,102,194,0.75),
         rgba(10,102,194,0.75)
     ),
-    url("hero-2.jpg");
+    url("hero2.jpg");
 
     background-size: cover;
     background-position: center;
@@ -54,7 +54,7 @@
     transform: translateY(-3px);
 }
 .logo img{
-    height:110px;
+    height:120px;
     width:auto;
 }
 /* STATS SECTION */
