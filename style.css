@@ -54,9 +54,8 @@
     transform: translateY(-3px);
 }
 .logo img{
-    height:200px;
+    height:80px;
     width:auto;
-    border:2px solid red;
 }
 /* STATS SECTION */
 
@@ -131,14 +130,11 @@ body{
 
 nav{
     background:white;
-    padding:15px 50px;
+    padding:10px 40px;
     display:flex;
     justify-content:space-between;
     align-items:center;
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    position:sticky;
-    top:0;
-    z-index:1000;
 }
 
 .logo{
