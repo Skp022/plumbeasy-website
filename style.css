@@ -115,7 +115,7 @@
 body{
     margin:0;
     font-family:Arial, sans-serif;
-    background:#ffffff;
+    background:#eef6ff;
     color:#333;
 }
 
@@ -417,4 +417,16 @@ html{
 
 .twitter{
     color:#000000 !important;
+}
+#why,
+#services,
+#how,
+.reviews{
+    background:#eef6ff;
+}
+.card,
+.service-card,
+.review-card,
+.stat-card{
+    background:white;
 }
