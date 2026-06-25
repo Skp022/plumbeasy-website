@@ -237,3 +237,8 @@ footer{
     text-align:center;
     padding:30px;
 }
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
